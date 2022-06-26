@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,800;1,400&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --heading-txt-clr: rgb(24, 24, 24);
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.main-section {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  font-size: small;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.overview {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.intro-text {
+  text-align: center;
+}
+
+.intro-text p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.intro-text .welcome {
+  margin: 2rem 0;
+}
+
+.welcome {
+}
+
+p .cv {
+  text-decoration: underline;
+  color: white;
+  margin: 0;
+}
+
+.overview * {
+  margin: 1.5rem;
+}
+
+.profile-img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,800;1,400&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --heading-txt-clr: rgb(24, 24, 24);
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.header-container {
+  padding: 2rem 4rem;
+}
+
+.top-header {
+  font-size: 0.69rem;
+  margin: 0.5rem 0;
+}
+.top-header a {
+  color: var(--heading-txt-clr);
+  opacity: 0.95;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-family: 'Baskervville', serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin: 0 0.4rem;
+  font-size: 0.69rem;
+  color: black;
+  opacity: 0.95;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.s-link {
+  font-size: 0.79rem;
+}
+
+.footer-section {
+  text-align: center;
+  margin: 2rem;
+}
+
+.footer-social {
+  font-size: 0.88rem;
+  color: black;
+  opacity: 0.9;
+  margin: 0.4rem;
+}
+
+.copyrights {
+  margin: 2rem;
+}
+.copyrights * {
+  display: inline-block;
+  font-size: 0.69rem;
+}
