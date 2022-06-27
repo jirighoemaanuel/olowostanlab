@@ -165,19 +165,25 @@ body {
   }
 }
 
+.root {
+  position: relative;
+}
+
 .navbar-nav {
   display: inline-block;
-  position: fixed;
+  position: absolute;
   width: 100%;
   text-align: center;
-  overflow: hidden;
   padding: 0rem 0;
-  top: 0;
+  top: 0rem;
   left: 0;
   bottom: 0;
   background-color: white;
-  /* height: 100vh; */
+  height: 100%;
+  overflow: hidden;
+
   z-index: 10;
+  overflow: hidden;
 }
 
 .close-btn {
