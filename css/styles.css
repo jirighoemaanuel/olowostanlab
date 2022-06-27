@@ -23,6 +23,10 @@ body {
   font-family: 'Playfair Display', sans-serif;
 }
 
+.open-btn {
+  display: none;
+}
+
 .main-section {
   background-color: teal;
   color: white;
@@ -30,6 +34,11 @@ body {
   font-size: small;
   font-family: 'Playfair Display', sans-serif;
   overflow: hidden;
+}
+
+.main-img-1 {
+  overflow: hidden;
+  width: 100%;
 }
 
 .overview {
@@ -61,12 +70,50 @@ p .cv {
   margin: 0;
 }
 
+.profile-img-phone {
+  display: none;
+}
+
 .overview * {
   margin: 1.5rem;
 }
 
-.profile-img {
+.profile-img-lap {
   width: 50%;
   height: auto;
   margin-bottom: 4rem;
+}
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .overview * {
+    margin: 0;
+  }
+  .profile-img-phone {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+  }
+  .profile-img-lap {
+    display: none;
+  }
+  .sub-heading,
+  .welcome,
+  p {
+    margin: 1rem 0;
+  }
+  .overview {
+    margin-top: 2rem;
+    width: 90%;
+    margin-bottom: 3rem;
+  }
 }

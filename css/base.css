@@ -21,6 +21,8 @@ a {
 
 body {
   font-family: 'Playfair Display', sans-serif;
+  /* height: 100vh; */
+  /* overflow: hidden; */
 }
 
 .header-container {
@@ -85,4 +87,39 @@ body {
 .copyrights * {
   display: inline-block;
   font-size: 0.69rem;
+}
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .open-btn {
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+  .navbar {
+    display: none;
+  }
+  .top-header {
+    display: none;
+  }
+  .logo {
+  }
+  .header-container {
+    padding: 1rem;
+  }
+
+  .footer-section {
+    margin: 0.95rem 0 0;
+  }
+  .copyrights {
+    margin: 0.5rem;
+  }
 }
