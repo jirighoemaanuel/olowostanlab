@@ -35,3 +35,20 @@ body {
   margin: 0 auto;
   line-height: 2;
 }
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .paraph {
+    padding: 1rem 1rem;
+    width: 100%;
+  }
+}
