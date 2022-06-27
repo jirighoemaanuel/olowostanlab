@@ -23,10 +23,6 @@ body {
   font-family: 'Playfair Display', sans-serif;
 }
 
-.open-btn {
-  display: none;
-}
-
 .main-section {
   background-color: teal;
   color: white;

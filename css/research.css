@@ -26,6 +26,10 @@ body {
 .main-section {
   background-color: lightgray;
 }
+
+.research-img-phone {
+  display: none;
+}
 .project-card {
   text-align: center;
   width: 44%;
@@ -47,4 +51,39 @@ body {
   width: 60%;
   margin: 0 auto;
   padding: 3rem 0;
+}
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .project-card {
+    width: 100%;
+    text-align: left;
+    margin: 2rem 0;
+  }
+  .card-heading {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+  .paraph {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .research-img-phone {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+  }
+  .research-img-lap {
+    display: none;
+  }
 }
