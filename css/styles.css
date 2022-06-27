@@ -106,10 +106,14 @@ p .cv {
   .profile-img-lap {
     display: none;
   }
+  .sub-heading {
+    font-size: 1.4rem;
+  }
+
   .sub-heading,
   .welcome,
   p {
-    margin: 1rem 0;
+    margin: 2rem 0;
   }
   .overview {
     margin-top: 2rem;
