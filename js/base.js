@@ -29,7 +29,7 @@ $('.close-btn').click(function () {
   navLink.forEach((link) => {
     link.classList.remove('nav-link-navbar');
   });
-  pageBody.style('overflow:none');
+  pageBody.style('overflow:scroll');
   navLinks.classList.remove('pad');
   openBtn.classList.remove('btn-hide');
   navMail.classList.add('btn-hide');
