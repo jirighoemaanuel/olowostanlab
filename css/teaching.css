@@ -39,3 +39,20 @@ body {
   margin: 1rem;
   font-size: 0.8rem;
 }
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .teachings {
+    width: 100%;
+    padding: 1rem;
+  }
+}
