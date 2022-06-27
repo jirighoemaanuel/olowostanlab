@@ -22,7 +22,7 @@ a {
 body {
   font-family: 'Playfair Display', sans-serif;
   /* height: 100vh; */
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 .header-container {
