@@ -120,6 +120,9 @@ body {
 /* --------------- 500px Screens --------------- */
 
 @media (max-width: 500px) {
+  .root {
+    overflow: hidden;
+  }
   .open-btn {
     display: inline-block;
     font-size: 2rem;

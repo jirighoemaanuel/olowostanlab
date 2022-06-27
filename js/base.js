@@ -3,7 +3,7 @@ let navLinks = document.querySelector('.nav-links');
 let navLink = document.querySelectorAll('.nav-link');
 let openBtn = document.querySelector('.open-btn');
 let closeBtn = document.querySelector('.close-btn');
-let pageBody = document.querySelector('body');
+let header = document.querySelector('header');
 
 let navMail = document.querySelector('.navbar-mail');
 
@@ -14,11 +14,10 @@ $('.open-btn').click(function () {
     link.classList.add('nav-link-navbar');
   });
 
-  pageBody.style('overflow:hidden');
   navLinks.classList.add('pad');
   navMail.classList.add('navbar-mail-show');
   openBtn.classList.add('btn-hide');
-
+  // header.style('overflow-x:hidden');
   closeBtn.classList.remove('btn-hide');
   $('#nav').slideDown('slow');
 });
@@ -34,7 +33,7 @@ $('.close-btn').click(function () {
   openBtn.classList.remove('btn-hide');
   navMail.classList.add('btn-hide');
   closeBtn.classList.add('btn-hide');
-
+  // pageroot.style('overflow:scroll');
   $('#nav').slideUp('slow');
 });
 
