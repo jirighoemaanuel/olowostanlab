@@ -3,6 +3,7 @@ let navLinks = document.querySelector('.nav-links');
 let navLink = document.querySelectorAll('.nav-link');
 let openBtn = document.querySelector('.open-btn');
 let closeBtn = document.querySelector('.close-btn');
+let pageBody = document.querySelector('body');
 
 let navMail = document.querySelector('.navbar-mail');
 
@@ -12,9 +13,12 @@ $('.open-btn').click(function () {
   navLink.forEach((link) => {
     link.classList.add('nav-link-navbar');
   });
+
+  pageBody.style('overflow:hidden');
   navLinks.classList.add('pad');
   navMail.classList.add('navbar-mail-show');
   openBtn.classList.add('btn-hide');
+
   closeBtn.classList.remove('btn-hide');
   $('#nav').slideDown('slow');
 });
@@ -25,6 +29,7 @@ $('.close-btn').click(function () {
   navLink.forEach((link) => {
     link.classList.remove('nav-link-navbar');
   });
+  pageBody.style('overflow:none');
   navLinks.classList.remove('pad');
   openBtn.classList.remove('btn-hide');
   navMail.classList.add('btn-hide');
