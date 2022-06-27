@@ -120,6 +120,7 @@ body {
   .open-btn {
     font-size: 2rem;
   }
+
   .open-btn :hover {
     cursor: auto;
     cursor: pointer;
@@ -137,9 +138,11 @@ body {
   .top-header {
     display: none;
   }
+
   .logo {
     font-size: 1.8rem;
   }
+
   .header-container {
     padding: 1rem;
   }
@@ -158,7 +161,7 @@ body {
   width: 100%;
   text-align: center;
   overflow: hidden;
-  padding: 1rem 0;
+  padding: 0rem 0;
   top: 0;
   left: 0;
   bottom: 0;
@@ -175,8 +178,9 @@ body {
 }
 
 .nav-links-navbar {
-  padding-top: 5rem;
+  padding-top: 2rem;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .socials-navbar {
