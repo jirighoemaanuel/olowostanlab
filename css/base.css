@@ -25,7 +25,20 @@ body {
   overflow-x: hidden;
 }
 
-.open-btn {
+.btn-hide {
+  display: none;
+}
+
+.close-btn :hover {
+  cursor: pointer;
+}
+
+.socials-navbar {
+  position: relative;
+  bottom: 0.2rem;
+}
+
+.navbar-mail {
   display: none;
 }
 
@@ -105,12 +118,22 @@ body {
 
 @media (max-width: 500px) {
   .open-btn {
-    display: inline-block;
     font-size: 2rem;
   }
+  .open-btn :hover {
+    cursor: auto;
+    cursor: pointer;
+  }
+
   .navbar {
     display: none;
   }
+
+  .nav-link {
+    margin: 0.9rem;
+    font-size: 1.2rem;
+  }
+
   .top-header {
     display: none;
   }
@@ -127,4 +150,46 @@ body {
   .copyrights {
     margin: 0.5rem;
   }
+}
+
+.navbar-nav {
+  display: inline-block;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding: 1rem 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  /* height: 100vh; */
+  z-index: 10;
+}
+
+.close-btn {
+  z-index: 11;
+  font-size: 2.5rem;
+  text-align: right;
+  margin: 2rem 2rem 0;
+}
+
+.nav-links-navbar {
+  padding-top: 5rem;
+  flex-direction: column;
+}
+
+.socials-navbar {
+  display: inline-block;
+  margin: 2rem 0;
+}
+
+.nav-link-navbar {
+  font-size: 2rem;
+}
+
+.navbar-mail-show {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: black;
 }
