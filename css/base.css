@@ -25,6 +25,10 @@ body {
   overflow-x: hidden;
 }
 
+.open-btn {
+  display: none;
+}
+
 .btn-hide {
   display: none;
 }
@@ -35,11 +39,7 @@ body {
 
 .socials-navbar {
   position: relative;
-  bottom: 0.2rem;
-}
-
-.navbar-mail {
-  display: none;
+  bottom: 4.2rem;
 }
 
 .header-container {
@@ -53,6 +53,10 @@ body {
 .top-header a {
   color: var(--heading-txt-clr);
   opacity: 0.95;
+}
+
+.pad {
+  margin: 2rem;
 }
 
 .bottom-header {
@@ -118,6 +122,7 @@ body {
 
 @media (max-width: 500px) {
   .open-btn {
+    display: inline-block;
     font-size: 2rem;
   }
 
@@ -153,6 +158,9 @@ body {
   .copyrights {
     margin: 0.5rem;
   }
+  .navbar-mail {
+    display: inline-block;
+  }
 }
 
 .navbar-nav {
@@ -171,6 +179,7 @@ body {
 }
 
 .close-btn {
+  overflow: hidden;
   z-index: 11;
   font-size: 2.5rem;
   text-align: right;
@@ -178,22 +187,30 @@ body {
 }
 
 .nav-links-navbar {
+  overflow: hidden;
   padding-top: 2rem;
   flex-direction: column;
-  overflow: hidden;
 }
 
 .socials-navbar {
+  overflow: hidden;
   display: inline-block;
-  margin: 2rem 0;
+  margin: 4rem 0 0;
 }
 
 .nav-link-navbar {
+  overflow: hidden;
   font-size: 2rem;
 }
 
 .navbar-mail-show {
+  overflow: hidden;
   display: inline-block;
   font-size: 1.2rem;
+  color: black;
+}
+
+.navbar-mail {
+  display: none;
   color: black;
 }
