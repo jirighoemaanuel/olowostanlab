@@ -64,3 +64,31 @@ main {
   font-size: 0.87rem;
   letter-spacing: 0.03rem;
 }
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .project-heading {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .project-card {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  .left-card {
+    margin: 0;
+    padding: 0;
+  }
+}
