@@ -24,6 +24,10 @@ body {
   /* height: 100vh; */
 }
 
+hr {
+  margin-top: 0.2rem;
+}
+
 .open-btn {
   display: none;
 }

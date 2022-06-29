@@ -17,7 +17,7 @@ $('.open-btn').click(function () {
   navLinks.classList.add('pad');
   navMail.classList.add('navbar-mail-show');
   openBtn.classList.add('btn-hide');
-  // header.style('overflow-x:hidden');
+  // header.style('overflow:hidden');
   closeBtn.classList.remove('btn-hide');
   $('#nav').slideDown('slow');
 });
