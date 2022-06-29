@@ -129,14 +129,15 @@ h4 {
   font-weight: 400;
 }
 
-.paraph-third {
-}
-
 .left-side-mobile {
   display: none;
 }
 
 .group-img-mobile {
+  display: none;
+}
+
+#profile-image-mobile {
   display: none;
 }
 
@@ -197,8 +198,13 @@ h4 {
     display: inline-block;
     width: 100%;
   }
-  #profile-image {
-    position: static;
+  #profile-image-mobile {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    top: 3rem;
+    left: 10rem;
   }
   .header-third {
     text-align: left;
