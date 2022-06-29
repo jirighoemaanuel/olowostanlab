@@ -213,6 +213,9 @@ h4 {
   .right-side {
     margin: 0;
   }
+  .paraph {
+    padding-bottom: 1rem;
+  }
 }
 
 /* Nothing just doing some testing */
