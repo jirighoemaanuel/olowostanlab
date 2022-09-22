@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,800;1,400&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --heading-txt-clr: rgb(24, 24, 24);
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.main-section {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  font-size: small;
+  font-family: 'Playfair Display', sans-serif;
+  overflow: hidden;
+}
+
+.main-img-1 {
+  overflow: hidden;
+  width: 100%;
+}
+
+.overview {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.intro-text {
+  text-align: center;
+}
+
+.intro-text p {
+  color: white;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+.intro-text .welcome {
+  margin: 2rem 0;
+}
+
+p .cv {
+  text-decoration: underline;
+  color: white;
+  margin: 0;
+}
+
+.profile-img-phone {
+  display: none;
+}
+
+.overview * {
+  margin: 1.5rem;
+}
+
+.profile-img-lap {
+  width: 50%;
+  height: auto;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .overview * {
+    margin: 0;
+  }
+  .profile-img-phone {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+  }
+  .profile-img-lap {
+    display: none;
+  }
+  .sub-heading {
+    font-size: 1.4rem;
+  }
+
+  .sub-heading,
+  .welcome,
+  p {
+    margin: 2rem 0;
+  }
+  .overview {
+    margin-top: 2rem;
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+  .main-img-1 {
+    height: 11rem;
+  }
+}

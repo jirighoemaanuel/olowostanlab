@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,800;1,400&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --heading-txt-clr: rgb(24, 24, 24);
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+  /* height: 100vh; */
+}
+
+hr {
+  margin-top: 0.2rem;
+}
+
+.open-btn {
+  display: none;
+}
+
+.btn-hide {
+  display: none;
+}
+
+.close-btn :hover {
+  cursor: pointer;
+}
+
+.socials-navbar {
+  position: relative;
+  bottom: 4.2rem;
+}
+
+.header-container {
+  padding: 2rem 4rem;
+}
+
+.top-header {
+  font-size: 0.69rem;
+  margin: 0.5rem 0;
+}
+.top-header a {
+  color: var(--heading-txt-clr);
+  opacity: 0.95;
+}
+
+.pad {
+  margin: 2rem;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 0;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-family: 'Baskervville', serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  margin: 0 0.4rem;
+  font-size: 0.69rem;
+  color: black;
+  opacity: 0.95;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.btn-menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer style */
+.s-link {
+  font-size: 0.79rem;
+}
+
+.footer-section {
+  text-align: center;
+  margin: 2rem;
+}
+
+.footer-social {
+  font-size: 0.88rem;
+  color: black;
+  opacity: 0.9;
+  margin: 0.4rem;
+}
+
+.copyrights {
+  margin: 2rem;
+}
+.copyrights * {
+  display: inline-block;
+  font-size: 0.69rem;
+}
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .btn-menu {
+    display: inline-block;
+  }
+
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .footer-section {
+    margin: 0.95rem 0 0;
+  }
+  .copyrights {
+    margin: 0.5rem;
+  }
+  .navbar-mail {
+    display: inline-block;
+  }
+
+  .root {
+    overflow: hidden;
+  }
+  .open-btn {
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .open-btn :hover {
+    cursor: auto;
+    cursor: pointer;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .nav-link {
+    margin: 0.9rem;
+    font-size: 1.2rem;
+  }
+
+  .top-header {
+    display: none;
+  }
+
+  .logo {
+    font-size: 1.8rem;
+  }
+
+  .header-container {
+    padding: 1rem;
+  }
+
+  .footer-section {
+    margin: 0.95rem 0 0;
+  }
+  .copyrights {
+    margin: 0.5rem;
+  }
+  .navbar-mail {
+    display: inline-block;
+  }
+}
+
+.root {
+  position: relative;
+}
+
+.navbar-nav {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 0rem 0;
+  top: 0rem;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  height: 100%;
+  overflow: hidden;
+
+  z-index: 10;
+  overflow: hidden;
+}
+
+.close-btn {
+  overflow: hidden;
+  z-index: 11;
+  font-size: 2.5rem;
+  text-align: right;
+  margin: 2rem 2rem 0;
+}
+
+.nav-links-navbar {
+  overflow: hidden;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+
+.socials-navbar {
+  overflow: hidden;
+  display: inline-block;
+  margin: 4rem 0 0;
+}
+
+.nav-link-navbar {
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.navbar-mail-show {
+  overflow: hidden;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.navbar-mail {
+  display: none;
+  color: black;
+}

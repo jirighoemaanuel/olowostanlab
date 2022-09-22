@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Baskerville:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,800;1,400&display=swap');
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --heading-txt-clr: rgb(24, 24, 24);
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.main-section {
+  background-color: lightgray;
+}
+
+.paraph {
+  padding: 9rem;
+  text-align: left;
+  font-size: 0.76rem;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 2;
+}
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+  .paraph {
+    padding: 1rem 1rem;
+    width: 100%;
+  }
+}
